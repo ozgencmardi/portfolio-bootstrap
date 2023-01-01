@@ -8,6 +8,7 @@
   --bg-color: #333;
   --green-color: #9ecacc;
   --color: #485874;
+  --text-color: #999;
 }
 
 html, body {
@@ -105,15 +106,6 @@ a {
   background: #eee;
 }
 
-.section-bg-dark {
-  background: var(--bg-color);
-  color: #ddd !important;
-}
-
-.contact-bg {
-  background: #d2f6f8;
-}
-
 .title {
   color: var(--color) !important;
   font-weight: bold;
@@ -130,11 +122,11 @@ a {
 }
 
 .about-text {
-  color: #999;
+  color: var(--text-color);
 }
 
 .card-text {
-  color: #999;
+  color: var(--text-color);
 }
 
 .white-text {
@@ -278,22 +270,22 @@ footer {
 }
 
 footer .fa {
-  color: #666;
+  color: #555;
   margin-right: 10px;
   font-size: 32px;
 }
 
 footer .fa:hover {
-  color: #999;
+  color: var(--text-color);
   margin-right: 10px;
 }
 
 footer a {
-  color: #666 !important;
+  color: #555 !important;
   text-decoration: none !important;
 }
 footer a:hover {
-  color: #999 !important;
+  color: var(--text-color) !important;
 }
 
 footer hr {
@@ -304,7 +296,11 @@ footer hr {
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .carousel-item {
-    height: 280px !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: 100% !important;
   }
   h1 {
     font-size: 2rem !important;
