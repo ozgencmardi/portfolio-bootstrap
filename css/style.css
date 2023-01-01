@@ -59,7 +59,8 @@ a {
 
 .navbar-toggler {
   color: var(--green-color) !important;
-  background: var(--green-color) !important;
+  border-color: var(--green-color) !important;
+  background-color: var(--green-color) !important;
 }
 
 .carousel-inner {
@@ -326,6 +327,24 @@ footer hr {
     "travel-california"
     "css-snippet"
     "portfolio-css";
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+  }
+  
+  .carousel-caption h1 {
+    font-size: 150% !important;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 100% !important;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 768px) {
