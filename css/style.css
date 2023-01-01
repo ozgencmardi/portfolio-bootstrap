@@ -316,6 +316,17 @@ footer hr {
   h3 {
     font-size: 1rem !important;
   }
+  #portfolioGrid {
+    display: grid;
+    grid-template-rows:  300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "furniture-store"
+    "semantic-html"
+    "travel-california"
+    "css-snippet"
+    "portfolio-css";
+  }
 }
 @media (max-width: 768px) {
 
