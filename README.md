@@ -12,7 +12,7 @@ N/A
 
 You can see the image of the project below.
 <br><br>
-![alt text](img/screenshot.jpg)
+![alt text](img/screenshot.png)
 
 ## Badges
 ![alt text](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
