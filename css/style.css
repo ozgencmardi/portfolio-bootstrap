@@ -196,12 +196,32 @@ a {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: ease-in-out 500ms;
+}
+
+#furniture-store:hover {
+  grid-area: furniture-store;
+  background: -webkit-linear-gradient(rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4)), url("../img/furniture-store.png");
+  background: linear-gradient(rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4)), url("../img/furniture-store.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #semantic-html {
   grid-area: semantic-html;
   background: -webkit-linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), url("../img/semantic-html.png");
   background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)), url("../img/semantic-html.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: ease-in-out 500ms;
+}
+
+#semantic-html:hover {
+  grid-area: semantic-html;
+  background: -webkit-linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/semantic-html.png");
+  background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/semantic-html.png");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -214,6 +234,15 @@ a {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: ease-in-out 500ms;
+}
+#travel-california:hover {
+  grid-area: travel-california;
+  background: -webkit-linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/travel-california.png");
+  background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/travel-california.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #css-snippet {
@@ -223,6 +252,16 @@ a {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: ease-in-out 500ms;
+}
+
+#css-snippet:hover {
+  grid-area: css-snippet;
+  background: -webkit-linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/css-snippet.png");
+  background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/css-snippet.png");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 
 #portfolio-css {
@@ -232,6 +271,16 @@ a {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: ease-in-out 500ms;
+}
+
+#portfolio-css:hover {
+  grid-area: portfolio-css;
+  background: -webkit-linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/portfolio.jpg");
+  background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.2)), url("../img/portfolio.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;  
 }
 
 .headingMain {
